@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Principio del header -->
+    <header class="page-header">
+        <div class="falmac-logo">
+            <a href="index.html" class="falmac-container">
+                <img src="assets/falmac-logo.svg" alt="logo-falmac" class="falmac-image">
+                <p class="falmac-text">FALMAC</p>
+            </a>
+        </div>
+        <div class="page-buttons">
+            <nav class="nav-header">
+                <ul class="ul-nav">
+                    <li><a href="" class="boton-header">Inicio</a></li>
+                    <li><a href="" class="boton-header">Productos</a></li>
+                    <li><a href="" class="boton-header">¿Quienes somos?</a></li>
+                    <li><a href="" class="boton-header">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Fin del header-->
+    
+    <main class="page-content">
+        <div class="escenario-bienvenida">
+            <div class="bienvenida-content">
+                <div class="izquierda-bienvenida">
+                    <img src="assets/computer-welcome.png" alt="" class="imagen-bienvenida">
+                </div>
+                <div class="derecha-bienvenida">
+                    <p>BIENVENIDO A FALMAC HIJO DE PUTA</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="services">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#723f8c" fill-opacity="1" d="M0,160L48,160C96,160,192,160,288,149.3C384,139,480,117,576,133.3C672,149,768,203,864,197.3C960,192,1056,128,1152,122.7C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+    </main>
+    <footer>
+        <a href="https://es.vecteezy.com/png-gratis/pc-gamer">Pc Gamer PNGs por Vecteezy</a>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

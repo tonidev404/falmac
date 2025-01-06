@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", serif;
+    
+}
+body{
+    background-color: #181818;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navegation-bar-container{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.navegation-bar{
+
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 7dvh;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #8686863c;
+    display: flex;
+    justify-content: center;
+}
+.navegation-bar-content{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegation-title-link{
+    text-decoration: none;
+    color: #e5e5e5;
+    transition: .3s ease;
+    font-size: 1.6dvw;
+    font-weight: bold;
+}
+.navegation-title-link:hover{
+    
+    color: #67ac52;
+}
+
+
+.navegation-buttons-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navegation-link{
+    font-size: 1.05dvw;
+    text-decoration: none;
+    color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 4px;
+    transition: .3s ease;
+}
+.navegation-link:hover{
+    background-color: #8686863c;
+    font-size: 1.1dvw;
+}
+
+
+.page-header{
+    height: 100dvh;
+    background: rgb(4,4,4);
+    background: radial-gradient(circle, rgba(4,4,4,1) 85%, rgba(30,75,21,1) 100%);
+    
+}
+.header-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e5e5e5;
+}
+#header-brand{
+    font-size: 6dvw;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #67ac52;
+    
+}
+.header-animated{
+    animation: 5s muevete forwards infinite;
+}
+
+.titulo-header{
+    color: #afafaf;
+}
+.header-description{
+    padding: 15px;
+}
+
+.page-content{
+    height: auto;
+}
+
+.tienda-container{
+    height: 100dvh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes muevete {
+    0%{
+        transform: translateY(15px);
+    }
+
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+
+}
